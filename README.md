@@ -1,13 +1,6 @@
-## 使用Heroku部署V2ray高性能代理服务，通过ws传输的 (VMess和VLESS)两种协议
-
-> 提醒： Heroku 已经封禁本专案，请 Fork 本专案后，将 README.md 中的 用户名 替换为 自己的用户名
-
-> 务必修改 专案名称 不要出现(Heroku、Xray、V2ray)等字符，再进行部署。 
-
 ## 概述
 
-Heroku 为我们提供了免费的容器服务，我们不应该滥用它，所以本项目不宜做为长期翻墙使用。
-- [x] 支持VMess和VLESS两种协议
+Heroku 为我们提供了免费的容器服务，我们不应该滥用它
 - [x] 支持自定义websocket路径
 - [x] 伪装首页（3D元素周期表）
 - [x] HTML5测速
@@ -204,10 +197,3 @@ addEventListener(
 
 * 请参考 [CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) `推荐`
 * 请参考 [better-cloudflare-ip](https://github.com/badafans/better-cloudflare-ip)
-
-### 特别感谢 ：
-
-* [mixool](https://github.com/mixool/)
-* [bclswl0827](https://github.com/bclswl0827/v2ray-heroku)
-* [yxhit](https://github.com/yxhit)
-* [badafans](https://github.com/badafans/better-cloudflare-ip/tree/20201208)
